@@ -1,4 +1,4 @@
-h2 {  color: #565656; }
+﻿h2 {  color: #565656; }
 
 .main li {
 color: #0404ba;
@@ -425,5 +425,18 @@ text-align: center;
 .footer-col:last-child {
 text-align: center;
 margin-bottom: 0;
+}
+.container {
+position: relative;
+width: 100%;
+height: 0;
+padding-bottom: 56.25%;
+}
+.video {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
 }
 }
